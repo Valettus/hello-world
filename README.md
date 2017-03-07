@@ -13,27 +13,32 @@ This is text with **bold** and *italics*.
 [Random Link](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
 
 ### Code
-`<div class="inline test">HTML!</div>`
-#### Block
-Processing snippet:
-```javascript
-void setup() {
-  size(1280, 720);
-  flocks = new Flock[numFlocks];
-  
-  for(int i = 0; i < numFlocks; i++) {
-    flocks[i] = new Flock(100, color(random(255),random(255),random(255)), i);
+  `<div class="inline test">HTML!</div>`
+  #### Block
+  Processing snippet:
+  ```javascript
+  void setup() {
+    size(1280, 720);
+    flocks = new Flock[numFlocks];
+
+    for(int i = 0; i < numFlocks; i++) {
+      flocks[i] = new Flock(100, color(random(255),random(255),random(255)), i);
+    }
   }
-}
-```
+  ```
 
 ### Quotes!
 
-> If I have seen further, it is by standing on the shoulders of giants.
+>If I have seen further, it is by
+>standing on the shoulders of giants.
 > - Isaac Newton
-
-> The roots of education are bitter, but the fruit is sweet.
+-
+>The roots of education are bitter,
+>but the fruit is sweet.
 > - Aristotle
+-
+
+
 
 ### Other
 
